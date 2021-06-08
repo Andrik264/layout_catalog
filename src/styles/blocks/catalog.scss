@@ -5,8 +5,9 @@
   &__catalog {
     width: 944px;
     height: 856px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, minamx(403px, 1fr));
   }
 }
 

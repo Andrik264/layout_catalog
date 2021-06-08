@@ -90,6 +90,7 @@
     background-color: $color;
     text-decoration: none;
     color: #fff;
+    transition: background-color 0.4s;
   }
 
   &__confirm:hover {
